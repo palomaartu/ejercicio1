@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   resources :tasks
+get 'static_pages/inicio'
+get 'static_pages/conductor'
+get 'static_pages/pasajero'
+get 'static_pages/registro'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
