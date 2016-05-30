@@ -5,6 +5,11 @@ route get 'static_pages/conductor'
 route get 'static_pages/pasajero'
 route get 'static_pages/registro'
 erb
+create app/views/static_pages
+create app/views/static_pages/inicio.html.erb
+create app/views/static_pages/conductor.html.erb
+create app/views/static_pages/pasajero.html.erb
+create app/views/static_pages/registro.html.erb
 
 
   # The priority is based upon order of creation: first created -> highest priority.
