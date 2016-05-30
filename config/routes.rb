@@ -4,7 +4,8 @@ route get 'static_pages/inicio'
 route get 'static_pages/conductor'
 route get 'static_pages/pasajero'
 route get 'static_pages/registro'
-erb
+
+invoke erb
 create app/views/static_pages
 create app/views/static_pages/inicio.html.erb
 create app/views/static_pages/conductor.html.erb
